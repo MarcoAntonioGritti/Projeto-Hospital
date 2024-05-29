@@ -7,7 +7,7 @@ namespace ProjetoHospitalClassAtributos
 {
     public class Paciente : Pessoa
     {
-        public Paciente(byte id, string nome, byte idade, string genero) : base(id, nome, idade, genero)
+        public Paciente( string nome, byte idade, string genero) : base( nome, idade, genero)
         {
         }
     }
