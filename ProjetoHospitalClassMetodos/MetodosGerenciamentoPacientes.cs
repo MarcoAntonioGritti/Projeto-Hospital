@@ -65,4 +65,8 @@ public class MetodosGerenciamentoPacientes
 
     }
 
+    public void MenuDoPaciente(){
+        
+    }
+
 }

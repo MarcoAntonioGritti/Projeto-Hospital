@@ -55,7 +55,7 @@ namespace ProjetoHospitalClassMetodos
             Console.WriteLine("NOME MÉDICO:");
             string nomeMedicoProcurado = Console.ReadLine();
 
-            Medico procurarPorMedico = listaDeMedicos.FirstOrDefault(medico => medico.Nome == nomeMedicoProcurado);
+            var procurarPorMedico = listaDeMedicos.FirstOrDefault(medico => medico.Nome == nomeMedicoProcurado);
 
             if(procurarPorMedico != null){
                 Console.WriteLine("!--MÉDICO ENCONTRADO--!");
@@ -64,6 +64,10 @@ namespace ProjetoHospitalClassMetodos
             }else{
                 Console.WriteLine("!--MÉDICO NÃO ENCONTRADO--!");
             }
+        }
+
+        public void MenuDoPaciente(){
+            
         }
 
     }

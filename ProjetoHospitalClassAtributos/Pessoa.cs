@@ -6,7 +6,6 @@ public class Pessoa
     private string nome;
     private byte idade;
     private string genero;
-
     public int Id{get;set;}
     public string Nome{get;set;}
     public byte Idade{get;set;}
